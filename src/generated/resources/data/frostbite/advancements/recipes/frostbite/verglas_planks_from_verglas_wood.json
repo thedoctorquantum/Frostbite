@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "frostbite:verglas_planks_from_verglas_wood"
+    ]
+  },
+  "criteria": {
+    "frostbite:verglas_planks_from_verglas_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "frostbite:verglas_wood"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "frostbite:verglas_planks_from_verglas_wood"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frostbite:verglas_planks_from_verglas_wood",
+      "has_the_recipe"
+    ]
+  ]
+}

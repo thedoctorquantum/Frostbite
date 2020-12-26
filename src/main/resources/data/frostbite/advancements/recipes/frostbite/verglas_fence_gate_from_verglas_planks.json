@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "frostbite:verglas_fence_gate_from_verglas_planks"
+    ]
+  },
+  "criteria": {
+    "frostbite:verglas_fence_gate_from_verglas_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "frostbite:verglas_planks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "frostbite:verglas_fence_gate_from_verglas_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frostbite:verglas_fence_gate_from_verglas_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "101",
+    "101"
+  ],
+  "key": {
+    "0": {
+      "item": "frostbite:verglas_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "frostbite:verglas_fence_gate"
+  }
+}

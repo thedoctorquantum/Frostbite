@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "frostbite:block/verglas_sapling"
+  }
+}

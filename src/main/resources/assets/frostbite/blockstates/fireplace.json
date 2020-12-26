@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "frostbite:block/fireplace" },
+        "facing=south": { "model": "frostbite:block/fireplace", "y": 180 },
+        "facing=west":  { "model": "frostbite:block/fireplace", "y": 270 },
+        "facing=east":  { "model": "frostbite:block/fireplace", "y": 90 }
+    }
+}

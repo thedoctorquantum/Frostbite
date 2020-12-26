@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "side": "frostbite:block/permafrost_bricks",
+    "bottom": "frostbite:block/permafrost_bricks",
+    "top": "frostbite:block/permafrost_bricks"
+  }
+}

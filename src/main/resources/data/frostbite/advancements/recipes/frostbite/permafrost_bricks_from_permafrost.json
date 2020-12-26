@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "frostbite:permafrost_bricks_from_permafrost"
+    ]
+  },
+  "criteria": {
+    "frostbite:permafrost_bricks_from_permafrost": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "frostbite:permafrost"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "frostbite:permafrost_bricks_from_permafrost"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frostbite:permafrost_bricks_from_permafrost",
+      "has_the_recipe"
+    ]
+  ]
+}

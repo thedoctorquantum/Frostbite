@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "frostbite:permafrost_bricks"
+    }
+  },
+  "result": {
+    "item": "frostbite:permafrost_brick_wall",
+    "count": 6
+  }
+}

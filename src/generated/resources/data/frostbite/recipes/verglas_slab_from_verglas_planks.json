@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "frostbite:verglas_planks"
+    }
+  },
+  "result": {
+    "item": "frostbite:verglas_slab"
+  }
+}

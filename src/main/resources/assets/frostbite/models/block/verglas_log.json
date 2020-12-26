@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "frostbite:block/verglas_log",
+    "end": "frostbite:block/verglas_log_top"
+  }
+}

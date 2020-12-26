@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "frostbite:verglas_wood_from_verglas_log"
+    ]
+  },
+  "criteria": {
+    "frostbite:verglas_wood_from_verglas_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "frostbite:verglas_log"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "frostbite:verglas_wood_from_verglas_log"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frostbite:verglas_wood_from_verglas_log",
+      "has_the_recipe"
+    ]
+  ]
+}

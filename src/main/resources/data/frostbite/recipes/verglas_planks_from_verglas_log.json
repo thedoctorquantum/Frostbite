@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "frostbite:verglas_log"
+    }
+  ],
+  "result": {
+    "item": "frostbite:verglas_planks",
+    "count": 4
+  }
+}

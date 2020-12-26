@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "frostbite:permafrost_brick_stairs_from_permafrost_bricks"
+    ]
+  },
+  "criteria": {
+    "frostbite:permafrost_brick_stairs_from_permafrost_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "frostbite:permafrost_bricks"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "frostbite:permafrost_brick_stairs_from_permafrost_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frostbite:permafrost_brick_stairs_from_permafrost_bricks",
+      "has_the_recipe"
+    ]
+  ]
+}

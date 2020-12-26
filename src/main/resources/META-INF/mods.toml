@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId="frostbite"
+version="1.0"
+displayName="Frostbite"
+updateJSONURL="http://myurl.me/"
+displayURL="http://example.com/"
+logoFile="frostbite.png"
+credits="DoctorQuantum"
+authors="DoctorQuantum"
+description='''
+Winter is coming...
+'''
+
+[[dependencies.frostbite]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.frostbite]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

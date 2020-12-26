@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "age=0": { "model": "frostbite:block/nether_chilli_stage0" },
+        "age=1": { "model": "frostbite:block/nether_chilli_stage1" },
+        "age=2": { "model": "frostbite:block/nether_chilli_stage2" },
+        "age=3": { "model": "frostbite:block/nether_chilli_stage3" }
+    }
+}

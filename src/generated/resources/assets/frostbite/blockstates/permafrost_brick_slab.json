@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "frostbite:block/permafrost_brick_slab_top"
+    },
+    "type=bottom": {
+      "model": "frostbite:block/permafrost_brick_slab"
+    },
+    "type=double": {
+      "model": "frostbite:block/permafrost_bricks"
+    }
+  }
+}

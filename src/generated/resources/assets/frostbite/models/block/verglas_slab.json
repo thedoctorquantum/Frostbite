@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "side": "frostbite:block/verglas_planks",
+    "bottom": "frostbite:block/verglas_planks",
+    "top": "frostbite:block/verglas_planks"
+  }
+}

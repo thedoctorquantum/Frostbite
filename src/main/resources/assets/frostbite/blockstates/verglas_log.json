@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "frostbite:block/verglas_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "frostbite:block/verglas_log"
+    },
+    "axis=z": {
+      "model": "frostbite:block/verglas_log",
+      "x": 90
+    }
+  }
+}
